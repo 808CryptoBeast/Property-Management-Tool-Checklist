@@ -25,7 +25,7 @@ ul {
     padding: 0;
 }
 
-li {
+.main-item {
     margin: 10px 0;
     padding: 10px;
     background-color: #232740; /* Dark blue */
@@ -33,7 +33,17 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+.sublist {
+    display: none; /* Initially hidden */
+}
+
+.completed {
+    background-color: #4CAF50; /* Green */
+    color: #FFF;
+    text-decoration: line-through;
+}
+
+.main-item:hover {
     background-color: #0F7CAC; /* Light blue */
     color: #FFF;
 }
