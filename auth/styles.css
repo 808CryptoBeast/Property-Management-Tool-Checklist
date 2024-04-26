@@ -1,10 +1,9 @@
-/* Reset default margin and padding */
 body, html {
   margin: 0;
   padding: 0;
 }
 
-/* Global styles */
+
 body {
   font-family: Arial, sans-serif;
   background-image: url('images/login.png');
@@ -42,7 +41,7 @@ header h1 {
 }
 
 .navbar a i {
-  margin-right: 10px; /* Add margin between icon and text */
+  margin-right: 10px;
 }
 
 .navbar a:hover {
@@ -51,10 +50,11 @@ header h1 {
 
 main {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 160px auto 20px;
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 16px 16px 16px rgba(241, 87, 40, 0.76);
 }
 
 form {
@@ -70,10 +70,10 @@ label {
 }
 
 label i {
-  margin-right: 10px; /* Add spacing between icon and text */
-  font-size: 20px; /* Increase icon size */
-  color: #0fc2b3; /* Set default icon color */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  margin-right: 10px; 
+  font-size: 20px; 
+  color: #0fc2b3; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 input[type="text"],
@@ -85,15 +85,15 @@ input[type="password"] {
 }
 
 button[type="submit"] {
-  width: calc(50% - 5px); /* Set width to half of the input fields with some spacing */
+  width: calc(50% - 5px); /
   padding: 10px;
   background-color: #333;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Add transition effect */
-  align-self: center; /* Center the button horizontally */
+  transition: background-color 0.3s; 
+  align-self: center; 
 }
 
 button[type="submit"]:hover {
@@ -105,21 +105,33 @@ p {
   text-align: center;
 }
 
-/* Hover effect for Register link */
+
 p a {
   color: white;
   text-decoration: none;
-  transition: color 0.3s; /* Smooth transition for color change */
+  transition: color 0.3s; 
 }
 
 p a:hover {
-  color: rgb(172, 174, 39); /* Change text color on hover */
+  color: rgb(172, 174, 39); 
 }
 
-/* Additional section styling */
+
 .section-background {
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
+.iconify {
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: color 0.3s ease; 
+}
+
+.iconify:hover {
+  color: red; 
+}
+
