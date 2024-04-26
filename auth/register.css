@@ -1,10 +1,8 @@
-/* Reset default margin and padding */
 body, html {
   margin: 0;
   padding: 0;
 }
 
-/* Global styles */
 body {
   font-family: Arial, sans-serif;
   background-image: url('images/registration.png');
@@ -51,10 +49,11 @@ header h1 {
 
 main {
   max-width: 600px;
-  margin: 20px auto;
+  margin: 150px auto 20px;
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 16px 16px 16px rgba(4, 188, 255, 0.544);
 }
 
 form {
@@ -70,7 +69,7 @@ label {
 }
 
 label i {
-  margin-right: 10px; /* Add spacing between icon and text */
+  margin-right: 10px;
 }
 
 input[type="text"],
@@ -82,21 +81,21 @@ input[type="password"] {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
-  height: 40px; /* Set consistent height for all input fields */
-  color: #333; /* Set text color for input fields */
-  background-color: rgba(255, 255, 255, 0.8); /* Set background color for input fields */
+  height: 40px; 
+  color: #333; 
+  background-color: rgba(255, 255, 255, 0.8); 
 }
 
 button[type="submit"] {
-  width: calc(50% - 5px); /* Set width to half of the input fields with some spacing */
+  width: calc(50% - 5px); 
   padding: 10px;
   background-color: #333;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Add transition effect */
-  align-self: center; /* Center the button horizontally */
+  transition: background-color 0.3s; 
+  align-self: center; 
 }
 
 button[type="submit"]:hover {
@@ -108,7 +107,7 @@ p {
   text-align: center;
 }
 
-/* Additional section styling */
+
 .section-background {
   padding: 20px;
   border-radius: 5px;
@@ -123,5 +122,5 @@ p a {
 }
 
 p a:hover {
-  color: #39930d; /* Change link color on hover */
+  color: #39930d; 
 }
